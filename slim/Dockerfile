@@ -47,6 +47,4 @@ RUN set -x \
 
 COPY docker-entrypoint.sh /
 
-VOLUME /znc-data
-
 ENTRYPOINT ["/docker-entrypoint.sh"]
